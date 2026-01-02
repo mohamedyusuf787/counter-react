@@ -1,0 +1,106 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* .container {
+    margin: 30% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 12px;
+    width: 300px;
+    border: white 2px solid;
+    color: white;
+    background-color: #310e68;
+    background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
+    box-shadow: rgba(0, 0, 0, 0.295) 0px 6px 10px;
+    transition: all 0.6s ease;
+
+} */
+
+.flip-card {
+    margin: 30% auto;
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    border-radius: 24px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: white 2px solid;
+    border-radius: 24px;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #310e68;
+    background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
+    box-shadow: rgba(0, 0, 0, 0.295) 0px 6px 10px;
+    color: white;  
+      border: white 2px solid;
+
+    border-radius: 24px;
+}
+
+.flip-card-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #310e68;
+    background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
+    box-shadow: rgba(0, 0, 0, 0.295) 0px 6px 10px;
+    color: white;
+    border-radius: 24px;
+    transform: rotateY(180deg);
+}
+
+.flip-card-back .button-project2 {
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.295) 0px 6px 10px;
+    font-size: large;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px white solid;
+    cursor: pointer;
+    color: black;
+
+    box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 1px;
+}
+
+.button-project2:hover {
+    background-color: #ffffffe3;
+
+}
