@@ -1,7 +1,7 @@
 import ReactDOM from "react-dom/client";
 
-
-import Random from "./random/index.jsx";
+import Counter from "./counter/index.jsx";
+// import Random from "./random/index.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -136,7 +136,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
 <>
-   <Random/>
+   <Counter/>
    
   </>
   // .......................
