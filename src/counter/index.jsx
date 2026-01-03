@@ -34,7 +34,7 @@ function Counter() {
        
         <div className="reset" onClick={handleReset}>
           <p>Reset</p>
-          <i className="bx bx-refresh border" style={{ fontSize: "24px", color: "#000" }}></i>
+          <i className="bx bx-refresh" style={{ fontSize: "24px", color: "#000" }}></i>
         </div>
     </div>
   )

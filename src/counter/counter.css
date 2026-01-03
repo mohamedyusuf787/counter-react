@@ -52,14 +52,7 @@
     box-shadow: rgba(0, 0, 0, 0.295) 0px 2px 1px;
 }
 
-.border {
-    position: fixed;
-    right: 20px;
-    bottom: 30px;
-    border-radius: 2000px;
-    padding: 12px;
-    font-size: 18px;
-}
+
 
 .button-project1:hover {
     background: linear-gradient(60deg, #88FF0C 30%, #39FF14 60%);
@@ -72,6 +65,13 @@
     align-items: center;
     justify-content: center;
     gap: 4px;
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    border-radius: 2000px;
+    padding: 12px;
+    font-size: 18px;
+    color: black;
 }
 .bxr {
     color: black;
