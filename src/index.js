@@ -6,6 +6,7 @@ import Formcomp from "./formcomp";
 import Arraycomp from "./arraycomp";
 import Conditonrender from "./conditonrender";
 import Checkbox from "./checked";
+import Random from "./random/index.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -140,7 +141,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
 <>
-   <Counter/>
+   <Random/>
    
   </>
   // .......................

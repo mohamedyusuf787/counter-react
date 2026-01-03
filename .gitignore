@@ -15,6 +15,7 @@ src/checkboxlist.jsx
 src/checked.jsx
 src/formcomp.jsx
 src/conditonrender.jsx
+src/counter/
 
 # Editor / OS files
 .vscode/
