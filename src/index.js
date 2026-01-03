@@ -1,13 +1,12 @@
 import ReactDOM from "react-dom/client";
-// import "./style.css";
+
 import Counter from "./counter/index.jsx";
-import profile from "./assets/images/profile.png"
+import profile from "./assets/images/profile.png";
 import Formcomp from "./formcomp";
 import Arraycomp from "./arraycomp";
 import Conditonrender from "./conditonrender";
 import Checkbox from "./checked";
-import Random from "./random/index.jsx"; 
-import Counter from "./counter/index.jsx";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // function Navbar() {
