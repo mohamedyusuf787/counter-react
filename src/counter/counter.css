@@ -66,6 +66,13 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 4px;
 }
 
+.reset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
 .bxr {
     color: black;
 }

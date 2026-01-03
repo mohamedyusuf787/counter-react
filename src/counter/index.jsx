@@ -30,10 +30,12 @@ function Counter() {
       <div className="buttons">
         <button className="button-project1" onClick={handleDecrement}>Decrement</button>
         <button className="button-project1" onClick={handleIncrement}>Increment</button>
-        <div onClick={handleReset}>
+      </div>
+       
+        <div className="reset" onClick={handleReset}>
+          <p>Reset</p>
           <i className="bx bx-refresh border" style={{ fontSize: "24px", color: "#000" }}></i>
         </div>
-      </div>
     </div>
   )
 }
