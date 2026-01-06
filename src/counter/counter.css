@@ -33,6 +33,13 @@
     height: 200px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 4px;
 }
+.heading{
+    font-size:60px;
+}
+.number{
+    font-size:45px;
+}
+
 
 .buttons {
     display: flex;
