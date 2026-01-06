@@ -22,8 +22,8 @@ function Counter() {
   return (
     <div className="container">
       <div className="container-box">
-        <h1 className="heading" style={{fontSize:"70px"}}>Counter</h1>
-        <h1 className="number" style={{fontSize:"45px"}}>{number}</h1>
+        <h1 className="heading">Counter</h1>
+        <h1 className="number">{number}</h1>
         <p style={{textAlign:"center"}}>you can able to increment and decrement the number by clicking the buttons and cant able to decrement  after "0"</p>
      
       </div>
