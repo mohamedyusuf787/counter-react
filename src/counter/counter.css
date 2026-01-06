@@ -77,11 +77,12 @@
     color: black;
 }
 
-@media-screen(max-width:560px){
+@media-screen(max-width:"560px"){
     .heading{
-        font-size: 36px;
+        font-size: "36px";
+        background-color:"#FF0000";
     }
     .number{
-        font-size:28px;
+        font-size:"28px";
     }
 }
