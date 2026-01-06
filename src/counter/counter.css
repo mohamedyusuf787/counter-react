@@ -76,3 +76,11 @@
 .bxr {
     color: black;
 }
+
+@media-screen(max-width:560px){
+    .heading{
+        font-size: 36px;
+    }
+    .number{
+        font-size:28px;
+    }
